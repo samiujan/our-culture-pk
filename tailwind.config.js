@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         display: ["Noto Nastaliq Urdu"],
       },
+      screens: {
+        print: { raw: "print" },
+      },
     },
   },
   variants: {

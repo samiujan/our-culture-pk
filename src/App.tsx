@@ -32,8 +32,25 @@ function App() {
           </Breadcrumbs> */}
         </nav>
       </header>
-      <main className="flex justify-center bg-white dark:bg-gray-800">
-        <div>
+      <main>
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <select>
+            <option>urdu</option>
+            <option>punjabi</option>
+            <option>pashto</option>
+          </select>
+          <select>
+            <option>ghazal</option>
+            <option>nazam</option>
+            <option>kafi</option>
+          </select>
+          <select>
+            <option>faraz</option>
+            <option>faiz</option>
+            <option>unknown</option>
+          </select>
+        </div>
+        <div className="flex justify-center bg-white dark:bg-gray-800 print:text-green-500">
           <article
             style={{}}
             className="flex flex-col text-2xl mt-10 leading-loose md:text-4xl lg:text-5xl"
