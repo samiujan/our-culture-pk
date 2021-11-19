@@ -81,7 +81,7 @@ const poems = [
   ],
 ];
 function fetchData() {
-  return poems[1];
+  return poems[0];
 }
 
 export default fetchData;
