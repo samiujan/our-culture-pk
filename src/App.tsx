@@ -53,7 +53,7 @@ function App() {
         <div className="flex justify-center bg-white dark:bg-gray-800 print:text-green-500">
           <article
             style={{}}
-            className="flex flex-col text-2xl mt-10 leading-loose md:text-4xl lg:text-5xl"
+            className="flex flex-col text-2xl mt-10 leading-loose md:text-4xl lg:text-5xl xs:mr-2 xl:text-6xl"
           >
             {poem.map((row, ix) => {
               // 0 indexed so our 2 line stanza ends at 1,3,5,7 etc.
@@ -66,7 +66,7 @@ function App() {
                       aria-label="stanza"
                       key={ix}
                       dir="rtl"
-                      className="block font-display text-black dark:text-white mt-6 mb-16 md:mt-10 md:mb-20 lg:mt-14 lg:mb-32"
+                      className="block font-display text-black dark:text-white mt-6 mb-16 md:mt-10 md:mb-28 lg:mt-14 lg:mb-40"
                     >
                       <>{row}</>
                     </span>
@@ -79,7 +79,7 @@ function App() {
                       aria-label="stanza"
                       key={ix}
                       dir="rtl"
-                      className="block font-display text-black dark:text-white"
+                      className="block font-display text-black dark:text-white xl:mb-4 xl:mt-10"
                     >
                       <>{row}</>
                     </span>
